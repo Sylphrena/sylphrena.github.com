@@ -1,369 +1,268 @@
 <!DOCTYPE html>
-<html lang=en>
+<html>
 <head>
-    <meta charset="utf-8">
-    
-    <title>Sylphrena</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta property="og:type" content="website">
+  <meta charset="utf-8">
+  
+  <title>Sylphrena</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+    <meta name="keywords" content="blog,sylphrena" />
+  
+  
+  
+  
+  <meta property="og:type" content="website">
 <meta property="og:title" content="Sylphrena">
 <meta property="og:url" content="http://sylphrena.github.io/index.html">
 <meta property="og:site_name" content="Sylphrena">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Sylphrena">
-    
+  
+    <link rel="alternate" href="/atom.xml" title="Sylphrena" type="application/atom+xml">
+  
+  <link rel="icon" href="/css/images/avatar.png">
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <style type="text/css">
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/l?subset_id=2&fvd=n5) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/l?subset_id=2&fvd=n7) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/l?subset_id=2&fvd=n4) format("woff2");font-weight:lighter;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/d337d8/000000000000000000010095/27/l?subset_id=2&fvd=i4) format("woff2");font-weight:400;font-style:italic;}</style>
+  <link rel="stylesheet" href="/css/style.css">
 
-    
+  <script src="/js/jquery-3.1.1.min.js"></script>
 
-    
-        <link rel="icon" href="/pictures/favicon.png" />
-    
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css" >
 
-    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/libs/open-sans/styles.css">
-    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+  
+    <link rel="stylesheet" href="/css/home.css" >
+  
 
-    <link rel="stylesheet" href="/css/style.css">
+  
 
-    <script src="/libs/jquery/2.1.3/jquery.min.js"></script>
-    
-    
-        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
-    
-    
-        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
-    
-    
-    
-    
-
+  
 
 </head>
 
 <body>
-    <div id="container">
-        <header id="header">
-    <div id="header-main" class="header-inner">
-        <div class="outer">
-            <a href="/" id="logo">
-                <i class="logo"></i>
-                <span class="site-title">Sylphrena</span>
-            </a>
-            <nav id="main-nav">
-                
-                    <a class="main-nav-link" href="/.">Home</a>
-                
-                    <a class="main-nav-link" href="/archives">Archives</a>
-                
-                    <a class="main-nav-link" href="/categories">Categories</a>
-                
-                    <a class="main-nav-link" href="/tags">Tags</a>
-                
-                    <a class="main-nav-link" href="/about">About</a>
-                
-            </nav>
-            
-                
-                <nav id="sub-nav">
-                    <div class="profile" id="profile-nav">
-                        <a id="profile-anchor" href="javascript:;">
-                            <img class="avatar" src="/css/images/avatar.png" />
-                            <i class="fa fa-caret-down"></i>
-                        </a>
-                    </div>
-                </nav>
-            
-            <div id="search-form-wrap">
-
-    <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
-        <button type="submit" class="search-form-submit"></button>
-    </form>
-    <div class="ins-search">
-    <div class="ins-search-mask"></div>
-    <div class="ins-search-container">
-        <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="Type something..." />
-            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
-        </div>
-        <div class="ins-section-wrapper">
-            <div class="ins-section-container"></div>
-        </div>
-    </div>
-</div>
-<script>
-(function (window) {
-    var INSIGHT_CONFIG = {
-        TRANSLATION: {
-            POSTS: 'Posts',
-            PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
-            UNTITLED: '(Untitled)',
-        },
-        ROOT_URL: '/',
-        CONTENT_URL: '/content.json',
-    };
-    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-})(window);
-</script>
-<script src="/js/insight.js"></script>
-
-</div>
-        </div>
-    </div>
-    <div id="main-nav-mobile" class="header-sub header-inner">
-        <table class="menu outer">
-            <tr>
-                
-                    <td><a class="main-nav-link" href="/.">Home</a></td>
-                
-                    <td><a class="main-nav-link" href="/archives">Archives</a></td>
-                
-                    <td><a class="main-nav-link" href="/categories">Categories</a></td>
-                
-                    <td><a class="main-nav-link" href="/tags">Tags</a></td>
-                
-                    <td><a class="main-nav-link" href="/about">About</a></td>
-                
-                <td>
-                    
-    <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
-    </div>
-
-                </td>
-            </tr>
-        </table>
-    </div>
-</header>
-
-        <div class="outer">
-            
-                
-
-<aside id="profile">
-    <div class="inner profile-inner">
-        <div class="base-info profile-block">
-            <img id="avatar" src="/css/images/avatar.png" />
-            <h2 id="name">Sylphrena</h2>
-            <h3 id="title">Student at UWC CSC</h3>
-            <span id="location"><i class="fa fa-map-marker"></i>Changshu, China</span>
-            <a id="follow" target="_blank" href="https://github.com/sylphrena/">FOLLOW</a>
-        </div>
-        <div class="article-info profile-block">
-            <div class="article-info-block">
-                15
-                <span>posts</span>
-            </div>
-            <div class="article-info-block">
-                15
-                <span>tags</span>
-            </div>
-        </div>
-        
-        <div class="profile-block social-links">
-            <table>
-                <tr>
-                    
-                    
-                    <td>
-                        <a href="https://github.com/sylphrena/" target="_blank" title="github" class=tooltip>
-                            <i class="fa fa-github"></i>
-                        </a>
-                    </td>
-                    
-                    <td>
-                        <a href="https://www.facebook.com/profile.php?id=100008499875130/" target="_blank" title="facebook" class=tooltip>
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </td>
-                    
-                </tr>
-            </table>
-        </div>
-        
-    </div>
-</aside>
-
-            
-            <section id="main">
-    <article id="posts-专业方向考量" class="article article-type-posts" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/2016/12/10/专业方向考量/">专业方向考量</a>
+  
+    <header id="header">
+  <!-- 
+    <div id="banner"></div>
+    <div id="header-outer" class="outer">
+      <div id="header-title" class="inner">
+        <h1 id="logo-wrap">
+          <a href="/" id="logo">Sylphrena</a>
         </h1>
-    
-
-                
-                    <div class="article-meta">
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2016/12/10/专业方向考量/">
-            <time datetime="2016-12-10T03:02:58.000Z" itemprop="datePublished">2016-12-10</time>
-        </a>
-    </div>
-
-
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/Academia/">Academia</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Academia/University-application/">University application</a>
-    </div>
-
-                        
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/Major/">Major</a>, <a class="tag-link" href="/tags/Stanford/">Stanford</a>, <a class="tag-link" href="/tags/University/">University</a>, <a class="tag-link" href="/tags/中文/">中文</a>
-    </div>
-
-                    </div>
-                
-            </header>
         
+          <h2 id="subtitle-wrap">
+            <a href="/" id="subtitle">The Way of Kings</a>
+          </h2>
         
-        <div class="article-entry" itemprop="articleBody">
-        
-            
-            <p>抽出时间做了一上午 Research，最终在 Stanford 官网上看了一圈，最终的最终决定下来还是 CS 系最好。<br>虽然也有想过大学阶段学一些比较高端、形而上的知识——比如哲学、心理学——可以拓宽自己的视野和思维方式，可是考虑一下我自己想做的事情，我觉得还是在 CS 学一学编程比较好。CS 和我的理想——做一个能发现需求，并将其实现的管理者（创业者）——也有一定差距，很少有公司在刚上任的时候就交给员工做管理的。可能还是需要从最基础的开发者做起，一步一步往上走。<br>由此，在现阶段可以做的事情也就比较明晰了：在制作 App 的同时学习编程语言，做一个比较有影响力的、出色的大项目。<br>武运昌隆。</p>
-
-        
+      </div>
+      <div id="header-inner" class="inner">
+        <nav id="main-nav">
+          <a id="main-nav-toggle" class="nav-icon"></a>
+          
+            <a class="main-nav-link" href="/">Home</a>
+          
+            <a class="main-nav-link" href="/archives">Archives</a>
+          
+            <a class="main-nav-link" href="/categories">Categories</a>
+          
+            <a class="main-nav-link" href="/tags">Tags</a>
+          
+            <a class="main-nav-link" href="/about">About</a>
+          
+        </nav>
+        <nav id="sub-nav">
+          
+            <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+          
+          <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        </nav>
+        <div id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://sylphrena.github.io"></form>
         </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-
-
-</div>
-
-    <a data-url="http://sylphrena.github.io/2016/12/10/专业方向考量/" data-id="ciwinosqp000hlfb5xjm4xhjf" class="article-share-link"><i class="fa fa-share"></i>Share</a>
-<script>
-    (function ($) {
-        // Prevent duplicate binding
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-            
-    
-        <a href="http://sylphrena.github.io/2016/12/10/专业方向考量/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://sylphrena.github.io/2016/12/10/专业方向考量/">Comments</a>
-    
-
-        </footer>
+      </div>
     </div>
+  -->
+
+
+  
+    <div id="intrologo" class="intro-logo" style="background-position:center; background-repeat:no-repeat; background-image: url(/css/images/saber_lily_by_wlop-d9e66kl.jpg); background-size: auto 100%;">
+  
+
+    <canvas width="100%" height="100%"></canvas>
+    <script>
+      var c = document.getElementsByTagName('canvas')[0],
+          x = c.getContext('2d'),
+          w = window.innerWidth,
+          h = window.innerHeight,
+          pr = window.devicePixelRatio || 1,
+          f = 90,
+          q,
+          m = Math,
+          r = 0,
+          u = m.PI*2,
+          v = m.cos,
+          z = m.random
+      c.width = w*pr
+      c.height = h*pr
+      x.scale(pr, pr)
+      x.globalAlpha = 0.6
+
+      
+    </script>
     
+
+    
+      <div id="homelogo" class="homelogo" style="background: rgba(255,255,255,1);"> 
+    
+
+        
+          <div class="homelogoback"  style="border: 1px solid #404040;" >
+            <h1><a href="#content" id="logo">Sylphrena</a></h1>
+            <h3>null</h3>
+            <h5>Sylphrena Nye</h5>
+            <!-- <p><a href="https://github.com/iTimeTraveler" target="_blank">Github</a></p> -->
+          </div>
+        
+    
+    </div>
+  </div>
+
+  <!-- 自适应主页背景大图 -->
+  
+    <script>
+        var img = new Image();
+        var intrologodiv = document.getElementById("intrologo");
+        img.src = intrologodiv.style.backgroundImage.replace('url(','').replace(')','').replace(/\"/gi, "");
+        img.onload=function(){
+          if (img.width / img.height <= document.body.clientWidth / document.body.clientHeight) {
+            intrologodiv.style.backgroundSize = "100% auto";
+          } else {
+            intrologodiv.style.backgroundSize = "auto 100%";
+          }
+        };
+    </script>
+ 
+
+ <!-- home_logo_image居中 -->
+ 
+    <script>
+        var homelogodiv = document.getElementById("homelogo");
+        if (document.all.homelogo.offsetWidth > document.body.clientWidth) {
+          homelogodiv.style.width = document.body.clientWidth + "px";
+          homelogodiv.style.marginLeft = document.body.clientWidth * -0.5 + "px";
+        } else {
+          homelogodiv.style.width = homelogodiv.clientWidth  + "px";
+          homelogodiv.style.marginLeft = (homelogodiv.clientWidth)  * -0.5 + "px";
+        }
+    </script>
+  
+
+  <div class="intro-navigate">
+      <p class="navigater-list">
+        
+          <a id="beautifont" class="main-nav-link" href="/">Home</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/archives">Archives</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/categories">Categories</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/tags">Tags</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/about">About</a>
+        
+      </p>
+  </div>
+
+</header>
+  
+  <div id="container">
+    <div id="wrap">
+      
+            
+      <div id="content" class="outer">
+        
+          <section id="main" style="float:none;">
+  
+    <article id="posts-专业方向考量"  class="article article-type-posts" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2016/12/10/专业方向考量/">专业方向考量</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2016/12/10/专业方向考量/" class="article-date">
+	  <time datetime="2016-12-10T03:02:58.000Z" itemprop="datePublished">2016-12-10</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/Academia/">Academia</a><a class="article-category-link" href="/categories/Academia/University-application/">University application</a>
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>抽出时间做了一上午 Research，最终在 Stanford 官网上看了一圈，最终的最终决定下来还是 CS 系最好。<br>虽然也有想过大学阶段学一些比较高端、形而上的知识——比如哲学、心理学——可以拓宽自己的视野和思维方式，可是考虑一下我自己想做的事情，我觉得还是在 CS 学一学编程比较好。CS 和我的理想——做一个能发现需求，并将其实现的管理者（创业者）——也有一定差距，很少有公司在刚上任的时候就交给员工做管理的。可能还是需要从最基础的开发者做起，一步一步往上走。<br>由此，在现阶段可以做的事情也就比较明晰了：在制作 App 的同时学习编程语言，做一个比较有影响力的、出色的大项目。<br>武运昌隆。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Major/">Major</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Stanford/">Stanford</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/University/">University</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/中文/">中文</a></li></ul>
+
+    </footer>
+  </div>
+  
 </article>
 
+<!-- Table of Contents -->
 
-
-    <article id="post-UWCCSC第一学期总结" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
+  
+    <article id="post-UWCCSC第一学期总结"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
     
-        <h1 itemprop="name">
-            <a class="article-title" href="/2016/12/02/UWCCSC第一学期总结/">UWCCSC第一学期总结</a>
-        </h1>
     
-
-                
-                    <div class="article-meta">
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2016/12/02/UWCCSC第一学期总结/">
-            <time datetime="2016-12-02T12:37:35.000Z" itemprop="datePublished">2016-12-02</time>
-        </a>
-    </div>
-
-
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/Academia/">Academia</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Academia/UWC/">UWC</a>
-    </div>
-
-                        
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/IBDP/">IBDP</a>, <a class="tag-link" href="/tags/Reflection/">Reflection</a>, <a class="tag-link" href="/tags/中文/">中文</a>
-    </div>
-
-                    </div>
-                
-            </header>
+      <header class="article-header">
         
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-            
-            <p>8/15 到校，12/16 离校。<br>来到 UWCCSC 四个月的时间，给我的感觉却像是已经过完了一整年。虽单说课业没有和在苏高中高一的时候——从下课回家一直趴在课桌前做到凌晨一两点才干的完——那样繁重，但和课外的 Zhixing、自己的 Pursuitia 加起来，就大概可以把活着的强度划等号了。而这样强度下尤其需要注意的事情则是一定要找到一个自己可以 Focus 的中心：失了剑锋的圣剑取不了敌人首级，失了锐气的生活不叫生活。高一的生活重心就比较模糊：在学校的成绩是真的不错，托福成绩也还看得过去，课外活动也做了那么些，但也就这样；反观现在，我可能也有步入后尘的嫌疑，却是可以有纠正过来的可能性的。<br>那时就确定了，我这一生是要奉献给「站在时代前沿的人」——或者更明确一点，「创业家」——这个称谓的，为此让我拔出石中剑都是愿意的。或者说，成为和 Saber 一样，为 Pursutia 献身的人物一直是我的梦想。为此，我需要懂点公关、懂点商业、懂点认知、懂点编程、懂点管理、懂点…（这正是在 UWC 遇见好多人对我的印象就是”你什么都会“的原因。）可是，更重要的是，我需要分辨出其中在我眼里分别隶属于<strong>技能</strong>和<strong>追求</strong>的事情。最近，可能是因为在 CCE 中我以公关上位的缘故吧，「Light」和「Makerfunc」找我加入做的事情都是和宣传设计相关的。这固然是非常重要的一个<strong>技能</strong>，但在我眼里还不足以成为「追求」。真正可以成为一位<strong>创业家</strong>所谓<strong>追求</strong>的，我认为正是在生活中发现需求，并将其以适当的形式解决的能力。这种能力的具体体现，就是自己举办 initiative 和为已经有的项目提供想法。<br>自己举办 initiative 暂且不谈，最近事情有点过多了，而且可能需要放假以后几天完全放松的沉淀期去抓住那一个最合适的点子。（目前找到了的是「出国党活动目录」。）而为已有项目提供想法这一块则是最近可以具体实施的。今年 CTB 张阳霞小队里一个职位名称我觉得用的特别贴切，就是「智库」(Think Tank)。这正是对我想做的事情的一个非常恰当的概括。可是实际情况来说，<strong>Thinker</strong> 和 <strong>Administrator</strong> 很多时候是相互重叠的。因此可能将「管理」作为<strong>技能</strong>当中比较重要的一方面去培养是比较明智的选择。<br>同时，作为目前弱项，以及将来非常重要的一块技能「编程」也不能忽视。可能需要作为冬假当中比较重要的一件事情去对待。<br>另外根据<a href="https://zhuanlan.zhihu.com/p/20849558" title="美国留学（2）— 申请本科选校要考虑51项因素" target="_blank" rel="external">这篇文章</a>的观点，我可能需要在里面所提到的「学生软件条件」里「超常」那一块儿找到一个点。目前来看<strong>「辩论」</strong>可能是一个比较好的切入口。日后有时间我会专门再写一篇 Blog 来具体探讨一下这份因素表格。<br>避免步入后尘除了在 Pursuitia 方面可以努力以外，Academia 的负重也是一个很大的问题。当时的生活失了锐气的一个非常重要的原因就是课业压力过大：完成课内的学习就已经很忙了，在别的方面上想要做到尽善尽美就有过于苛求自己之嫌。反观现在，课业已经比那时候轻松多了，但是想要拿到40+，甚至45还是比较困难的一件事情：归根结底是选课比较的难，但我并不后悔。目前来看总共选的六门课：</p>
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2016/12/02/UWCCSC第一学期总结/">UWCCSC第一学期总结</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2016/12/02/UWCCSC第一学期总结/" class="article-date">
+	  <time datetime="2016-12-02T12:37:35.000Z" itemprop="datePublished">2016-12-02</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/Academia/">Academia</a><a class="article-category-link" href="/categories/Academia/UWC/">UWC</a>
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>8/15 到校，12/16 离校。<br>来到 UWCCSC 四个月的时间，给我的感觉却像是已经过完了一整年。虽单说课业没有和在苏高中高一的时候——从下课回家一直趴在课桌前做到凌晨一两点才干的完——那样繁重，但和课外的 Zhixing、自己的 Pursuitia 加起来，就大概可以把活着的强度划等号了。而这样强度下尤其需要注意的事情则是一定要找到一个自己可以 Focus 的中心：失了剑锋的圣剑取不了敌人首级，失了锐气的生活不叫生活。高一的生活重心就比较模糊：在学校的成绩是真的不错，托福成绩也还看得过去，课外活动也做了那么些，但也就这样；反观现在，我可能也有步入后尘的嫌疑，却是可以有纠正过来的可能性的。<br>那时就确定了，我这一生是要奉献给「站在时代前沿的人」——或者更明确一点，「创业家」——这个称谓的，为此让我拔出石中剑都是愿意的。或者说，成为和 Saber 一样，为 Pursutia 献身的人物一直是我的梦想。为此，我需要懂点公关、懂点商业、懂点认知、懂点编程、懂点管理、懂点…（这正是在 UWC 遇见好多人对我的印象就是”你什么都会“的原因。）可是，更重要的是，我需要分辨出其中在我眼里分别隶属于<strong>技能</strong>和<strong>追求</strong>的事情。最近，可能是因为在 CCE 中我以公关上位的缘故吧，「Light」和「Makerfunc」找我加入做的事情都是和宣传设计相关的。这固然是非常重要的一个<strong>技能</strong>，但在我眼里还不足以成为「追求」。真正可以成为一位<strong>创业家</strong>所谓<strong>追求</strong>的，我认为正是在生活中发现需求，并将其以适当的形式解决的能力。这种能力的具体体现，就是自己举办 initiative 和为已经有的项目提供想法。<br>自己举办 initiative 暂且不谈，最近事情有点过多了，而且可能需要放假以后几天完全放松的沉淀期去抓住那一个最合适的点子。（目前找到了的是「出国党活动目录」。）而为已有项目提供想法这一块则是最近可以具体实施的。今年 CTB 张阳霞小队里一个职位名称我觉得用的特别贴切，就是「智库」(Think Tank)。这正是对我想做的事情的一个非常恰当的概括。可是实际情况来说，<strong>Thinker</strong> 和 <strong>Administrator</strong> 很多时候是相互重叠的。因此可能将「管理」作为<strong>技能</strong>当中比较重要的一方面去培养是比较明智的选择。<br>同时，作为目前弱项，以及将来非常重要的一块技能「编程」也不能忽视。可能需要作为冬假当中比较重要的一件事情去对待。<br>另外根据<a href="https://zhuanlan.zhihu.com/p/20849558" title="美国留学（2）— 申请本科选校要考虑51项因素" target="_blank" rel="external">这篇文章</a>的观点，我可能需要在里面所提到的「学生软件条件」里「超常」那一块儿找到一个点。目前来看<strong>「辩论」</strong>可能是一个比较好的切入口。日后有时间我会专门再写一篇 Blog 来具体探讨一下这份因素表格。<br>避免步入后尘除了在 Pursuitia 方面可以努力以外，Academia 的负重也是一个很大的问题。当时的生活失了锐气的一个非常重要的原因就是课业压力过大：完成课内的学习就已经很忙了，在别的方面上想要做到尽善尽美就有过于苛求自己之嫌。反观现在，课业已经比那时候轻松多了，但是想要拿到40+，甚至45还是比较困难的一件事情：归根结底是选课比较的难，但我并不后悔。目前来看总共选的六门课：</p>
 <ul>
 <li>Physics HL 没问题；</li>
 <li>Further Math HL 想要拿7难度相对来说不大；</li>
@@ -386,539 +285,183 @@
 </li>
 </ol>
 
-        
-        </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-
-
-</div>
-
-    <a data-url="http://sylphrena.github.io/2016/12/02/UWCCSC第一学期总结/" data-id="ciwinosqw000mlfb5vofse0zm" class="article-share-link"><i class="fa fa-share"></i>Share</a>
-<script>
-    (function ($) {
-        // Prevent duplicate binding
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-            
-    
-        <a href="http://sylphrena.github.io/2016/12/02/UWCCSC第一学期总结/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://sylphrena.github.io/2016/12/02/UWCCSC第一学期总结/">Comments</a>
-    
-
-        </footer>
+      
     </div>
-    
+    <footer class="article-footer">
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/IBDP/">IBDP</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Reflection/">Reflection</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/中文/">中文</a></li></ul>
+
+    </footer>
+  </div>
+  
 </article>
 
+<!-- Table of Contents -->
 
-
-    <article id="post-第二届“紫藤杯”辩论赛参与有感" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
+  
+    <article id="post-第二届“紫藤杯”辩论赛参与有感"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
     
-        <h1 itemprop="name">
-            <a class="article-title" href="/2016/11/20/第二届“紫藤杯”辩论赛参与有感/">第二届“紫藤杯”辩论赛参与有感</a>
-        </h1>
     
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2016/11/20/第二届“紫藤杯”辩论赛参与有感/">第二届“紫藤杯”辩论赛参与有感</a>
+    </h1>
+  
 
-                
-                    <div class="article-meta">
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2016/11/20/第二届“紫藤杯”辩论赛参与有感/">
-            <time datetime="2016-11-20T08:14:53.000Z" itemprop="datePublished">2016-11-20</time>
-        </a>
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2016/11/20/第二届“紫藤杯”辩论赛参与有感/" class="article-date">
+	  <time datetime="2016-11-20T08:14:53.000Z" itemprop="datePublished">2016-11-20</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/Pursuitia/">Pursuitia</a><a class="article-category-link" href="/categories/Pursuitia/Chinese-debate/">Chinese debate</a>
+
     </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>早上6：30乘着这辆巴士开往苏州，下午4点就已经乘着它返回了。短短10个小时的时间，我们就成功的为咱们学校捧回了第一座中文辩论比赛中的奖杯。<br>首先作为一支队伍，我认为今天的表现是非常精彩的。首场打木渎中学就拿下了3：0开门红，而且虽然在面对无锡天一中学的比赛中失利，但也只是1：2，而且最终的一票我们得分163，对面得分167，仅仅只有四分之差。最后一场在对阵苏州实验中学的时候也以2：1拿下。最终以1票的优势获得整场比赛的第一名。<br>然而胜利的同时，比赛当中我们也有很多做的不足的地方，最严重的莫过于自由辩论阶段了。有第一场和第三场比赛当中，我们都出现了长达一分钟的缺席审判，也就是说，这一分钟只有对方辩手在滔滔不绝的输出自己的论点，而我们却无法回应。这种现象出现的原因第三场的评委已经做出了精确的解释：我们在自由辩中倾向于解释本方的论点，而不是去攻击对方的论点。解释比较耗时间、耗脑力、复杂，需要辩手有较高的临场应变能力；攻击则相对来说比较简单，而且能将比赛前所准备的所谓“战场”推入对方辩友的阵地，更具气势和压制力。这里正是目前为止我觉得辩论赛的<strong>矛盾之处</strong>：不对对方的观点见招拆招，直接回应，而是将自己早就准备好的那一套拿出来，竟然能达到更好的效果！这可不是一个利于讨论问题的倾向，试想又在哪种情况下两位同学在讨论一个问题的时候会不停地指向自己准备好的那些材料，而不是回应对方的观点？虽然现在实际情况是如此，但我认对辩论赛是抱有希望的，因为当我们能将辩论发挥到极致时，最强形态的自由辩论就是逻辑严密的当场解释回复对方的进攻，同时还能推进我方的战场。<br>另一个问题则是关于例子。我们打无锡一中的那一场，全场一共我们只举了1-2个例子，其余时间都是在说理。难怪裁判在点评的时候说道：我听到了你们对于对方论点的回应，但都是面上的，没有具体点上的回应，因而显得有些薄弱。<br>我相信，我们队伍将以上这两点解决好了，事先准备好一定量的例子，并且在回应对方的同时辅以自己论点的攻击，相信我们能取得更加好的成绩！</p>
 
-
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/Pursuitia/">Pursuitia</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Pursuitia/Chinese-debate/">Chinese debate</a>
+      
     </div>
+    <footer class="article-footer">
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Chinese-debate/">Chinese debate</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/English/">English</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Reflection/">Reflection</a></li></ul>
 
-                        
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/Chinese-debate/">Chinese debate</a>, <a class="tag-link" href="/tags/English/">English</a>, <a class="tag-link" href="/tags/Reflection/">Reflection</a>
-    </div>
-
-                    </div>
-                
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-            
-            <p>早上6：30乘着这辆巴士开往苏州，下午4点就已经乘着它返回了。短短10个小时的时间，我们就成功的为咱们学校捧回了第一座中文辩论比赛中的奖杯。<br>首先作为一支队伍，我认为今天的表现是非常精彩的。首场打木渎中学就拿下了3：0开门红，而且虽然在面对无锡天一中学的比赛中失利，但也只是1：2，而且最终的一票我们得分163，对面得分167，仅仅只有四分之差。最后一场在对阵苏州实验中学的时候也以2：1拿下。最终以1票的优势获得整场比赛的第一名。<br>然而胜利的同时，比赛当中我们也有很多做的不足的地方，最严重的莫过于自由辩论阶段了。有第一场和第三场比赛当中，我们都出现了长达一分钟的缺席审判，也就是说，这一分钟只有对方辩手在滔滔不绝的输出自己的论点，而我们却无法回应。这种现象出现的原因第三场的评委已经做出了精确的解释：我们在自由辩中倾向于解释本方的论点，而不是去攻击对方的论点。解释比较耗时间、耗脑力、复杂，需要辩手有较高的临场应变能力；攻击则相对来说比较简单，而且能将比赛前所准备的所谓“战场”推入对方辩友的阵地，更具气势和压制力。这里正是目前为止我觉得辩论赛的<strong>矛盾之处</strong>：不对对方的观点见招拆招，直接回应，而是将自己早就准备好的那一套拿出来，竟然能达到更好的效果！这可不是一个利于讨论问题的倾向，试想又在哪种情况下两位同学在讨论一个问题的时候会不停地指向自己准备好的那些材料，而不是回应对方的观点？虽然现在实际情况是如此，但我认对辩论赛是抱有希望的，因为当我们能将辩论发挥到极致时，最强形态的自由辩论就是逻辑严密的当场解释回复对方的进攻，同时还能推进我方的战场。<br>另一个问题则是关于例子。我们打无锡一中的那一场，全场一共我们只举了1-2个例子，其余时间都是在说理。难怪裁判在点评的时候说道：我听到了你们对于对方论点的回应，但都是面上的，没有具体点上的回应，因而显得有些薄弱。<br>我相信，我们队伍将以上这两点解决好了，事先准备好一定量的例子，并且在回应对方的同时辅以自己论点的攻击，相信我们能取得更加好的成绩！</p>
-
-        
-        </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-
-
-</div>
-
-    <a data-url="http://sylphrena.github.io/2016/11/20/第二届“紫藤杯”辩论赛参与有感/" data-id="ciwinosr9000ylfb5chv4dou1" class="article-share-link"><i class="fa fa-share"></i>Share</a>
-<script>
-    (function ($) {
-        // Prevent duplicate binding
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-            
-    
-        <a href="http://sylphrena.github.io/2016/11/20/第二届“紫藤杯”辩论赛参与有感/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://sylphrena.github.io/2016/11/20/第二届“紫藤杯”辩论赛参与有感/">Comments</a>
-    
-
-        </footer>
-    </div>
-    
+    </footer>
+  </div>
+  
 </article>
 
+<!-- Table of Contents -->
 
-
-    <article id="post-Library Crew Reflection" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
+  
+    <article id="post-Library Crew Reflection"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
     
-        <h1 itemprop="name">
-            <a class="article-title" href="/2016/11/15/Library Crew Reflection/">Library Crew Reflection</a>
-        </h1>
     
-
-                
-                    <div class="article-meta">
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2016/11/15/Library Crew Reflection/">
-            <time datetime="2016-11-15T15:42:24.000Z" itemprop="datePublished">2016-11-15</time>
-        </a>
-    </div>
-
-
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/Academia/">Academia</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Academia/UWC/">UWC</a>
-    </div>
-
-                        
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/English/">English</a>, <a class="tag-link" href="/tags/Library-crew/">Library crew</a>, <a class="tag-link" href="/tags/Reflection/">Reflection</a>
-    </div>
-
-                    </div>
-                
-            </header>
+      <header class="article-header">
         
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-            
-            <p>Library, a place built for people to read and study, can really be everything about book. That is the most dominant feeling over the last periods of time I spent in Library Crew.</p>
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2016/11/15/Library Crew Reflection/">Library Crew Reflection</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2016/11/15/Library Crew Reflection/" class="article-date">
+	  <time datetime="2016-11-15T15:42:24.000Z" itemprop="datePublished">2016-11-15</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/Academia/">Academia</a><a class="article-category-link" href="/categories/Academia/UWC/">UWC</a>
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Library, a place built for people to read and study, can really be everything about book. That is the most dominant feeling over the last periods of time I spent in Library Crew.</p>
 <p>We together discussed what projects could we initiate during this year, which is a really nice brainstorming meeting with appropriate recorder, organizer and active participator. I have organized some activity back in my high school. Because of lack of experiences, those meetings were really ill-conceived in the way that no one was responsible for recording and communicating information to people that didn’t come. However, we handle these meeting very well now in Library Crew, which is a great leap in our working efficiency.</p>
 <p>We have organized “Storytelling” activity already and it went pretty well: everyone came seemed to enjoyed it - except myself, who is rarely a reader of “girlish” stories. I think one thing we can improve in the future is to broaden the diversity of contents we will read aloud. In this way, we can appeal to more potential listeners.</p>
 
-        
-        </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-
-
-</div>
-
-    <a data-url="http://sylphrena.github.io/2016/11/15/Library Crew Reflection/" data-id="ciwinosqe0009lfb5trv11il6" class="article-share-link"><i class="fa fa-share"></i>Share</a>
-<script>
-    (function ($) {
-        // Prevent duplicate binding
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-            
-    
-        <a href="http://sylphrena.github.io/2016/11/15/Library Crew Reflection/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://sylphrena.github.io/2016/11/15/Library Crew Reflection/">Comments</a>
-    
-
-        </footer>
+      
     </div>
-    
+    <footer class="article-footer">
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/English/">English</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Library-crew/">Library crew</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Reflection/">Reflection</a></li></ul>
+
+    </footer>
+  </div>
+  
 </article>
 
+<!-- Table of Contents -->
 
-
-    <article id="post-Project Week Reflection" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
+  
+    <article id="post-Project Week Reflection"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
     
-        <h1 itemprop="name">
-            <a class="article-title" href="/2016/11/12/Project Week Reflection/">Project Week Reflection</a>
-        </h1>
     
-
-                
-                    <div class="article-meta">
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2016/11/12/Project Week Reflection/">
-            <time datetime="2016-11-12T08:08:01.000Z" itemprop="datePublished">2016-11-12</time>
-        </a>
-    </div>
-
-
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/Academia/">Academia</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Academia/UWC/">UWC</a>
-    </div>
-
-                        
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/English/">English</a>, <a class="tag-link" href="/tags/Project-week/">Project week</a>, <a class="tag-link" href="/tags/Reflection/">Reflection</a>
-    </div>
-
-                    </div>
-                
-            </header>
+      <header class="article-header">
         
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-            
-            <p>Pondering upon what we have done in the last week, it mainly consists of two discrete parts: teaching in Siyuan schools, climbing Dabie Mountain and visiting city Wuhan, each of which had little connection in terms of my feeling despite of physical adjacency.</p>
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2016/11/12/Project Week Reflection/">Project Week Reflection</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2016/11/12/Project Week Reflection/" class="article-date">
+	  <time datetime="2016-11-12T08:08:01.000Z" itemprop="datePublished">2016-11-12</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/Academia/">Academia</a><a class="article-category-link" href="/categories/Academia/UWC/">UWC</a>
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Pondering upon what we have done in the last week, it mainly consists of two discrete parts: teaching in Siyuan schools, climbing Dabie Mountain and visiting city Wuhan, each of which had little connection in terms of my feeling despite of physical adjacency.</p>
 <p>Foremost, teaching itself. Regardless of the fact that we have been taught as students for at least 10 years, very few of us actually touch the art of teaching. Therefore, although we have prepared teaching contents - seasons and climate - before project week, it is not hard to explain that upon the first day of the teaching most of us encountered miscellaneous difficulties including: overestimation of students’ English levels, inability to encourage students to participate in class activities and lack of adaptability of teaching contents to different levels of students in terms of English proficiency. In my first class, I tried to teach Grade 9 students in complete English lecture but failed entirely, because I designed my class on the assumption that their English degree was approximately the same as mine back in my 9th Grade. However, it turned out that this was totally wrong. The students in Xishui Siyuan came from different villages and counties around the school, but I came from Suzhou, an economically and educationally developed metropolis. Learning from this failure, I quickly changed my whole English lecture to both Chinese and English one, which turned out to be quite an effective way there. One approach to preclude this problem is to contact their English teachers to know their real English levels prior to the preparation of teaching. Other problems were mainly concerned with our teaching ability, which we could only enquire through numerous teaching experiences including this trip. For example, we have additionally prepared “Emotions” and “Tic Tac Toe” as warm-up activities and reduced the difficulties of “Seasons and climate” for lower grades. And in order to involve students into the class, we have bought snacks and candies. So, I would rather view the teaching part of this trip as a precious pre-exposure to the required capabilities and responsibilities of being a teacher.</p>
 <p>Beyond the teaching experience it self, the trip in Xishui Siyuan School is rather a culture exchange. We were able to peer into the true situation of Chinese education. The reason I used the phrase “peer into” is that the situation displayed to us was distorted: we were never allowed to audit part of the lesson their teachers taught and the classes we taught were selected as the best ones. But it was still valuable because the education there varied way too much from ours to be neglected. When we gave instructions to the students in English, none of the students knew what to do. But when we used Chinese instead, everybody answered correctly. This situation reflected an astounding fact: even in the highest grade of middle school, 9th Grade, in which the students were expected to have a considerable level of English proficiency to be able to chat with friends in simple English, the students were still taught in their mother tongue, Chinese. If we dug deeper and researched more, we could easily approach the conclusion that their educational system was mainly served as a tool to pass tests and to distinguish students, rather than to help students acquire knowledge and foster ability. It is true that these two sets - passing tests and learning knowledge - have some overlapping parts, but their purposes vary profoundly. With the increasing speed of globalization of not only economics but also cultures, Chinese educational system is gradually recognized, acknowledged and learned by the whole world due to its great achievement in cultivating talents and its indispensable role in Chinese soaring development. However, after learning from this trip, we need to be cautious of it because its goal deviate the mission of education itself despite its achievement.</p>
 <p>For the kids there, this culture exchange was mainly a chance to get to know world’s cultures and nations. Very few of them have stepped out of their own province, not to say China. Almost none of them have seen foreigners in their lives before. Therefore, this experience was an excellent opportunity for them to broaden their horizons. Our group indeed achieved that by making our lectures focus more on the diversities of seasons and climates around the world. For other groups, they talked about music around the world, religions around the world and even clothes around the world. At the end of the teaching trip, we could confidently say that they indeed got to know a lot about the world they lived in.</p>
 <p>In the second and third part of the whole project week, climbing Dabie Mountain and visiting city Wuhan, we visited the amazing natural and humanistic scenes in Hubei province. I would like to say I was more attracted by mother nature’s uncanny craftsmanship than by an unexpected anachronism - the great ancient Huanghe tower standing in the center of a modernized city Wuhan. The evanescent weather turning snow and frog into sunshine in a blink of an eye, the precipitous cliffs soaring into the sky by almost 90 degrees and the omnipresent waterfalls haunting my ears like a melodious symphony, all of them contributed to the everlasting beauty of Dabie Mountain. I took tons of photos of beautiful sceneries during the trip and given the chance, I would like to taste again the charm of Dabie Mountain. Whenever I grew tired of my tedious study or mundane life in the future, I would always be reminded of that place, giving me inspirations and encouragements to carry on.</p>
 
-        
-        </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-
-
-</div>
-
-    <a data-url="http://sylphrena.github.io/2016/11/12/Project Week Reflection/" data-id="ciwinosr0000olfb5i3o5sfeg" class="article-share-link"><i class="fa fa-share"></i>Share</a>
-<script>
-    (function ($) {
-        // Prevent duplicate binding
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-            
-    
-        <a href="http://sylphrena.github.io/2016/11/12/Project Week Reflection/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://sylphrena.github.io/2016/11/12/Project Week Reflection/">Comments</a>
-    
-
-        </footer>
+      
     </div>
-    
+    <footer class="article-footer">
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/English/">English</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Project-week/">Project week</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Reflection/">Reflection</a></li></ul>
+
+    </footer>
+  </div>
+  
 </article>
 
+<!-- Table of Contents -->
 
-
-    <article id="post-New-Game-One" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
+  
+    <article id="post-New-Game-One"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
     
-        <h1 itemprop="name">
-            <a class="article-title" href="/2016/11/11/New-Game-One/">New\_Game\_One</a>
-        </h1>
     
-
-                
-                    <div class="article-meta">
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2016/11/11/New-Game-One/">
-            <time datetime="2016-11-11T00:20:11.000Z" itemprop="datePublished">2016-11-11</time>
-        </a>
-    </div>
-
-
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/Pursuitia/">Pursuitia</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Pursuitia/Game/">Game</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Pursuitia/Game/Game-Design/">Game Design</a>
-    </div>
-
-                        
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/Design/">Design</a>, <a class="tag-link" href="/tags/English/">English</a>, <a class="tag-link" href="/tags/Game/">Game</a>
-    </div>
-
-                    </div>
-                
-            </header>
+      <header class="article-header">
         
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-            
-            <p>Friendly fire: 50%</p>
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2016/11/11/New-Game-One/">New\_Game\_One</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2016/11/11/New-Game-One/" class="article-date">
+	  <time datetime="2016-11-11T00:20:11.000Z" itemprop="datePublished">2016-11-11</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/Pursuitia/">Pursuitia</a><a class="article-category-link" href="/categories/Pursuitia/Game/">Game</a><a class="article-category-link" href="/categories/Pursuitia/Game/Game-Design/">Game Design</a>
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Friendly fire: 50%</p>
 <p>Duelist:</p>
 <ul>
 <li>Peter Tilker <4><br>Crafts:</4></li>
@@ -932,270 +475,92 @@
 <p>Wizard:</p>
 <p>Magician:</p>
 
-        
-        </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-
-
-</div>
-
-    <a data-url="http://sylphrena.github.io/2016/11/11/New-Game-One/" data-id="ciwinosqk000flfb5qzxt6haf" class="article-share-link"><i class="fa fa-share"></i>Share</a>
-<script>
-    (function ($) {
-        // Prevent duplicate binding
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-            
-    
-        <a href="http://sylphrena.github.io/2016/11/11/New-Game-One/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://sylphrena.github.io/2016/11/11/New-Game-One/">Comments</a>
-    
-
-        </footer>
+      
     </div>
-    
+    <footer class="article-footer">
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Design/">Design</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/English/">English</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Game/">Game</a></li></ul>
+
+    </footer>
+  </div>
+  
 </article>
 
+<!-- Table of Contents -->
 
-
-    <article id="post-浠水交流记（三）" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
+  
+    <article id="post-浠水交流记（三）"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
     
-        <h1 itemprop="name">
-            <a class="article-title" href="/2016/11/09/浠水交流记（三）/">浠水交流记（三）</a>
-        </h1>
     
-
-                
-                    <div class="article-meta">
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2016/11/09/浠水交流记（三）/">
-            <time datetime="2016-11-09T12:16:50.000Z" itemprop="datePublished">2016-11-09</time>
-        </a>
-    </div>
-
-
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/Academia/">Academia</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Academia/UWC/">UWC</a>
-    </div>
-
-                        
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/Project-week/">Project week</a>, <a class="tag-link" href="/tags/Reflection/">Reflection</a>, <a class="tag-link" href="/tags/中文/">中文</a>
-    </div>
-
-                    </div>
-                
-            </header>
+      <header class="article-header">
         
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-            
-            <p>再次认识到一个事实，举校体质的培养下真的能出现许多出彩的东西。我们在文艺汇演里的表现与他们的节目根本就是不能比：包括京剧表演、舞蹈串烧、古筝合奏等，都是在全校选拔出优秀的具有相关才能的学生，在进行长达数周的训练、彩排之后，展示出的具有高观赏性的精彩节目。而我们22位同学，前后总计只排练了5次，每次一个小时或更少，虽然外国人的样貌以及外国舞蹈的独特性的确带来了一定的新奇感，但是就其节目本身的质量来说，是完全被碾压的。但是又有什么办法呢。就是因为我们是从 UWC 来的，这一个头衔就已经压倒了一切。凡是 UWC 学生表演的节目，大家就要鼓掌。凡是 UWC 学生提出的邀请，大家就要接受。在这样一种奇异的主宾不平等关系下展开的这场联欢，正是这次 Project Week 所展示给我的本质：认识不平等。认识这些偏远地区的孩子和我们究竟有多大的不同，有多大的差异。<br>但我不喜欢这样。<br>我宁愿自己不受那么多的注目（虽然的确感觉很温暖），我宁愿自己不和孩子们吃不同的菜饭，我宁愿自己不住这么好的旅馆，我宁愿自己和他们一样。我宁愿被当做一名普通的年长一点的同学，我宁愿和大家一起吃大锅饭，我宁愿自己和他们住一个宿舍，同吃同喝，同睡同乐，这才是我认为去支教、去交流的活动所应有的本质。</p>
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2016/11/09/浠水交流记（三）/">浠水交流记（三）</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2016/11/09/浠水交流记（三）/" class="article-date">
+	  <time datetime="2016-11-09T12:16:50.000Z" itemprop="datePublished">2016-11-09</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/Academia/">Academia</a><a class="article-category-link" href="/categories/Academia/UWC/">UWC</a>
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>再次认识到一个事实，举校体质的培养下真的能出现许多出彩的东西。我们在文艺汇演里的表现与他们的节目根本就是不能比：包括京剧表演、舞蹈串烧、古筝合奏等，都是在全校选拔出优秀的具有相关才能的学生，在进行长达数周的训练、彩排之后，展示出的具有高观赏性的精彩节目。而我们22位同学，前后总计只排练了5次，每次一个小时或更少，虽然外国人的样貌以及外国舞蹈的独特性的确带来了一定的新奇感，但是就其节目本身的质量来说，是完全被碾压的。但是又有什么办法呢。就是因为我们是从 UWC 来的，这一个头衔就已经压倒了一切。凡是 UWC 学生表演的节目，大家就要鼓掌。凡是 UWC 学生提出的邀请，大家就要接受。在这样一种奇异的主宾不平等关系下展开的这场联欢，正是这次 Project Week 所展示给我的本质：认识不平等。认识这些偏远地区的孩子和我们究竟有多大的不同，有多大的差异。<br>但我不喜欢这样。<br>我宁愿自己不受那么多的注目（虽然的确感觉很温暖），我宁愿自己不和孩子们吃不同的菜饭，我宁愿自己不住这么好的旅馆，我宁愿自己和他们一样。我宁愿被当做一名普通的年长一点的同学，我宁愿和大家一起吃大锅饭，我宁愿自己和他们住一个宿舍，同吃同喝，同睡同乐，这才是我认为去支教、去交流的活动所应有的本质。</p>
 <p><img src="/img/IMG_4668.JPG" alt="升旗仪式"><br><img src="/img/IMG_4658.JPG" alt="Barrie 被围住"><br><img src="/img/IMG_4670.JPG" alt="文艺联欢表演"><br><img src="/img/IMG_4677.JPG" alt="别离"> </p>
 
-        
-        </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-
-
-</div>
-
-    <a data-url="http://sylphrena.github.io/2016/11/09/浠水交流记（三）/" data-id="ciwinosrc0010lfb552a2dihc" class="article-share-link"><i class="fa fa-share"></i>Share</a>
-<script>
-    (function ($) {
-        // Prevent duplicate binding
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-            
-    
-        <a href="http://sylphrena.github.io/2016/11/09/浠水交流记（三）/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://sylphrena.github.io/2016/11/09/浠水交流记（三）/">Comments</a>
-    
-
-        </footer>
+      
     </div>
-    
+    <footer class="article-footer">
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Project-week/">Project week</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Reflection/">Reflection</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/中文/">中文</a></li></ul>
+
+    </footer>
+  </div>
+  
 </article>
 
+<!-- Table of Contents -->
 
-
-    <article id="post-浠水思源国旗下讲话演讲稿（终）" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
+  
+    <article id="post-浠水思源国旗下讲话演讲稿（终）"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
     
-        <h1 itemprop="name">
-            <a class="article-title" href="/2016/11/08/浠水思源国旗下讲话演讲稿（终）/">浠水思源国旗下讲话演讲稿（终）</a>
-        </h1>
     
-
-                
-                    <div class="article-meta">
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2016/11/08/浠水思源国旗下讲话演讲稿（终）/">
-            <time datetime="2016-11-08T15:20:02.000Z" itemprop="datePublished">2016-11-08</time>
-        </a>
-    </div>
-
-
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/Academia/">Academia</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Academia/UWC/">UWC</a>
-    </div>
-
-                        
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/English/">English</a>, <a class="tag-link" href="/tags/Presentation/">Presentation</a>, <a class="tag-link" href="/tags/Project-week/">Project week</a>, <a class="tag-link" href="/tags/中文/">中文</a>
-    </div>
-
-                    </div>
-                
-            </header>
+      <header class="article-header">
         
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-            
-            <p>Dear principles, teachers and students,<br>Having travelled from our school in Changshu to yours, in Hubei, we thank you all for your very warm welcome.<br>敬爱的校领导、老师，亲爱的同学们，大家上午好！这三天来承蒙各位的照顾，不胜荣幸。</p>
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2016/11/08/浠水思源国旗下讲话演讲稿（终）/">浠水思源国旗下讲话演讲稿（终）</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2016/11/08/浠水思源国旗下讲话演讲稿（终）/" class="article-date">
+	  <time datetime="2016-11-08T15:20:02.000Z" itemprop="datePublished">2016-11-08</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/Academia/">Academia</a><a class="article-category-link" href="/categories/Academia/UWC/">UWC</a>
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Dear principles, teachers and students,<br>Having travelled from our school in Changshu to yours, in Hubei, we thank you all for your very warm welcome.<br>敬爱的校领导、老师，亲爱的同学们，大家上午好！这三天来承蒙各位的照顾，不胜荣幸。</p>
 <p>The founder of the UWC movement, Kurt Hahn, founded the schools with the mission of making “UWC a force to unite people, nations and cultures for a peaceful and a sustainable future.”<br>uwc运动的创始人，库尔特·哈恩先生曾经说过，uwc运动的使命是让 世界联合学院 成为一种可以团结不同人民、不同民族和不同文化的力量，以促使世界的和平以及人类的可持续发展。</p>
 <p>In the past few days our school and your school have worked together to do just that.<br>在过去的几天内，UWC 常熟分校和浠水县思源实验学校携力合作，互相学习，硕果累累。</p>
 <p>We all come from different backgrounds and that is what the past few days were all about. This is where our schools’ missions align, all of us uniting, no matter what background we come from to create a better future for ourselves and the generations to come.<br>我们都来自不同的国家和背景，但我们仍然团结在一起，共同为一个美好的未来而奋斗，这正是我们在这几天的交流活动中传达给各位的 uwc 的独特文化。</p>
@@ -1204,271 +569,93 @@
 <p>Lets make the most of this chance we have and make the next three days ones that we will never forget and consider it the start of an ever lasting relationship between our school and yours.<br>时光荏苒，日月如梭，三天的短暂时光很快就要过去了，希望这几天的经历已经成为我们所能铭记一生的宝贵经历，也希望这会成为我们两所学校友好关系的开端。最后，预祝同学们在接下来的期中考试中取得满意的成绩，也希望同学们前程似锦，前途无量！</p>
 <p>Thank you, Xie Xie.<br>谢谢！咱们将来有缘再见！</p>
 
-        
-        </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-
-
-</div>
-
-    <a data-url="http://sylphrena.github.io/2016/11/08/浠水思源国旗下讲话演讲稿（终）/" data-id="ciwinosrj0016lfb5n8h3kbun" class="article-share-link"><i class="fa fa-share"></i>Share</a>
-<script>
-    (function ($) {
-        // Prevent duplicate binding
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-            
-    
-        <a href="http://sylphrena.github.io/2016/11/08/浠水思源国旗下讲话演讲稿（终）/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://sylphrena.github.io/2016/11/08/浠水思源国旗下讲话演讲稿（终）/">Comments</a>
-    
-
-        </footer>
+      
     </div>
-    
+    <footer class="article-footer">
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/English/">English</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Presentation/">Presentation</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Project-week/">Project week</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/中文/">中文</a></li></ul>
+
+    </footer>
+  </div>
+  
 </article>
 
+<!-- Table of Contents -->
 
-
-    <article id="post-浠水交流记（二）" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
+  
+    <article id="post-浠水交流记（二）"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
     
-        <h1 itemprop="name">
-            <a class="article-title" href="/2016/11/08/浠水交流记（二）/">浠水交流记（二）</a>
-        </h1>
     
-
-                
-                    <div class="article-meta">
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2016/11/08/浠水交流记（二）/">
-            <time datetime="2016-11-08T13:44:32.000Z" itemprop="datePublished">2016-11-08</time>
-        </a>
-    </div>
-
-
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/Academia/">Academia</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Academia/UWC/">UWC</a>
-    </div>
-
-                        
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/Project-week/">Project week</a>, <a class="tag-link" href="/tags/Reflection/">Reflection</a>, <a class="tag-link" href="/tags/中文/">中文</a>
-    </div>
-
-                    </div>
-                
-            </header>
+      <header class="article-header">
         
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-            
-            <p>今天我们仍然教了四节课，对于教学可谓是越来越熟练了。对于各种英语水平的课堂，都能提供具有相应挑战性的内容。也越发感觉到这群孩子的可爱。他们每一个对我们都是如此的好奇，也是如此的期待我们的到来。这种期待至少对于我是绝对不可以辜负的。也正是因为此，我备、上、反思每一节课都会如此的上心，因为我不想让他们失望。这恐怕就是我在他们身上学习到的重要的点。</p>
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2016/11/08/浠水交流记（二）/">浠水交流记（二）</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2016/11/08/浠水交流记（二）/" class="article-date">
+	  <time datetime="2016-11-08T13:44:32.000Z" itemprop="datePublished">2016-11-08</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/Academia/">Academia</a><a class="article-category-link" href="/categories/Academia/UWC/">UWC</a>
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>今天我们仍然教了四节课，对于教学可谓是越来越熟练了。对于各种英语水平的课堂，都能提供具有相应挑战性的内容。也越发感觉到这群孩子的可爱。他们每一个对我们都是如此的好奇，也是如此的期待我们的到来。这种期待至少对于我是绝对不可以辜负的。也正是因为此，我备、上、反思每一节课都会如此的上心，因为我不想让他们失望。这恐怕就是我在他们身上学习到的重要的点。</p>
 <p>比这更重要的是，今天我才真切的认识到，虽然本次旅程安排的是如此的形式主义，但是孩子们却的的确确都是真心的。</p>
 <p>下课的时候很多的孩子们冲过来向我们要签名和 QQ，直到下节课的老师踏进来我们才得以脱身。也正是因为有了 QQ,我才能在晚间的聊天中了解到我们的到来对他们的意义。可能对我们来说这仅仅是一次 Project Week，仅仅是 UWC 所有活动当中那不算很起眼的一个，但对他们来时可能是一生只有一次的事。贫富、城乡这么巨大的差距不是一天两天就能够弥补的，但是我们能到做的，却是在他们心中种下一颗希望的种子。等着将来的某一天，时机到了，它开花了，结果了，那我们这次活动的意义也就达到了。</p>
 
-        
-        </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-
-
-</div>
-
-    <a data-url="http://sylphrena.github.io/2016/11/08/浠水交流记（二）/" data-id="ciwinosre0014lfb5k4b1i46f" class="article-share-link"><i class="fa fa-share"></i>Share</a>
-<script>
-    (function ($) {
-        // Prevent duplicate binding
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-            
-    
-        <a href="http://sylphrena.github.io/2016/11/08/浠水交流记（二）/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://sylphrena.github.io/2016/11/08/浠水交流记（二）/">Comments</a>
-    
-
-        </footer>
+      
     </div>
-    
+    <footer class="article-footer">
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Project-week/">Project week</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Reflection/">Reflection</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/中文/">中文</a></li></ul>
+
+    </footer>
+  </div>
+  
 </article>
 
+<!-- Table of Contents -->
 
-
-    <article id="post-浠水交流记（一）" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
+  
+    <article id="post-浠水交流记（一）"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
     
-        <h1 itemprop="name">
-            <a class="article-title" href="/2016/11/07/浠水交流记（一）/">XiShui Communication Reflection / 浠水交流记（一）</a>
-        </h1>
     
-
-                
-                    <div class="article-meta">
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2016/11/07/浠水交流记（一）/">
-            <time datetime="2016-11-07T02:27:16.000Z" itemprop="datePublished">2016-11-07</time>
-        </a>
-    </div>
-
-
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/Academia/">Academia</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Academia/UWC/">UWC</a>
-    </div>
-
-                        
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/Project-week/">Project week</a>, <a class="tag-link" href="/tags/Reflection/">Reflection</a>, <a class="tag-link" href="/tags/中文/">中文</a>
-    </div>
-
-                    </div>
-                
-            </header>
+      <header class="article-header">
         
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-            
-            <p>昨天一天从清晨一直奔波忙碌到凌晨。早上7点半，先乘坐大巴到苏州北火车站，然后再做5h火车，抵达麻城北站以后再做2h大巴，才最终于下午4点半左右抵浠。</p>
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2016/11/07/浠水交流记（一）/">XiShui Communication Reflection / 浠水交流记（一）</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2016/11/07/浠水交流记（一）/" class="article-date">
+	  <time datetime="2016-11-07T02:27:16.000Z" itemprop="datePublished">2016-11-07</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/Academia/">Academia</a><a class="article-category-link" href="/categories/Academia/UWC/">UWC</a>
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>昨天一天从清晨一直奔波忙碌到凌晨。早上7点半，先乘坐大巴到苏州北火车站，然后再做5h火车，抵达麻城北站以后再做2h大巴，才最终于下午4点半左右抵浠。</p>
 <p>大巴还好，在火车上大家一路上吵吵闹闹，熙熙攘攘，人头攒动，络绎不绝。如果你走进我们所在的这两节车厢，就好像进入了苏州南门菜市批发市场一样热闹。</p>
 <p>从火车上下来，被浠水的隆重接待给惊到了。还没出火车站就看到在远远的出口处有巨大的欢迎牌竖着，几位一看就位高权重的中年人伫立在那里，微笑地看着我们慢慢走去。后来我才知道，那竟然是几位校长亲自来迎接我们。酒店住的是当地最好的酒店—天泽大酒店，晚饭包间装饰的和香雪海如出一辙。这种前后心理上的巨大落差使我心中很不好受。</p>
 <p>这还不是最令我难受的。最难受的是，我们作为前来交流的学生，竟然连交流的机会都没有：我们在学校里呆的地方是唯一一间会议室，有好奇的学生挤过来探头的时候立刻就被校长们凶狠的呵斥走；午饭和晚饭是在食堂角落里的一个包间内吃豪华自助餐，我们一进去大门就被仅仅闭上，不许学生入内。只有在一天内仅有的四节上课时间内才能真正接触到这些孩子们。</p>
@@ -1476,307 +663,196 @@
 <p>反思这两天的行动，我发现一个相当荒谬的事实。不管是我们学校 Project Week 的宗旨也罢，浠水思源学校的办学理念也好，都在强调教育的平等性。每一个孩子，不论种族，不论身份，不论贫富，不论背景，都有联合在一起，享受教育，为未来奋斗的权利。而当我真正来到这边，真真切切感受到的确恰恰相反：不平等。当这里的孩子们在他们拥挤的宿舍里面休息时，我们在富贵堂皇的酒店里就寝；当他们在饭堂里吃着大锅饭的时候，我们在小隔间里享受着小资生活；当他们在四十多人拥挤的教室里学着哑巴英语的时候，我们却在十几人的小课堂里谈天说地。</p>
 <p>我一次又一次的想告诉自己，世界本不应该是这样的，他们本该接受更好的教育，吃上更好的饭菜，住上更好的房间；我一次又一次的想打开餐厅隔间里那紧闭的大门，把这里的山珍海味分享给同学们，可是我又停住了。我这是怎么了。以前的我，随时可以为了一点小小的不公挺身而出，对抗权威，怎么现在突然就萎靡了？难道真的是因为以前我是受害者，现在我是受益者么？那我就真的需要好好反思一下了。</p>
 
-        
-        </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-
-
-</div>
-
-    <a data-url="http://sylphrena.github.io/2016/11/07/浠水交流记（一）/" data-id="ciwinosqs000ilfb5g2z8riov" class="article-share-link"><i class="fa fa-share"></i>Share</a>
-<script>
-    (function ($) {
-        // Prevent duplicate binding
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-            
-    
-        <a href="http://sylphrena.github.io/2016/11/07/浠水交流记（一）/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://sylphrena.github.io/2016/11/07/浠水交流记（一）/">Comments</a>
-    
-
-        </footer>
+      
     </div>
-    
+    <footer class="article-footer">
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Project-week/">Project week</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Reflection/">Reflection</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/中文/">中文</a></li></ul>
+
+    </footer>
+  </div>
+  
 </article>
 
+<!-- Table of Contents -->
+
+  
 
 
-    <nav id="page-nav">
-        <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
-    </nav>
+  <nav id="page-nav">
+    
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
+  </nav>
+
 </section>
-            
-                <aside id="sidebar">
-   
         
-    <div class="widget-wrap">
-        <h3 class="widget-title">recent</h3>
-        <div class="widget">
-            <ul id="recent-post" class="">
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/2016/12/10/专业方向考量/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-</a>
+      </div>
+      
+        <div align="center" style="margin-top: 30px;"><hr class="hr" style="margin:0px; height:3px;"></div>
+      
+      <footer id="footer">
+  
 
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/Academia/">Academia</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Academia/University-application/">University application</a></p>
-                            <p class="item-title"><a href="/2016/12/10/专业方向考量/" class="title">专业方向考量</a></p>
-                            <p class="item-date"><time datetime="2016-12-10T03:02:58.000Z" itemprop="datePublished">2016-12-10</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/2016/12/02/UWCCSC第一学期总结/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/Academia/">Academia</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Academia/UWC/">UWC</a></p>
-                            <p class="item-title"><a href="/2016/12/02/UWCCSC第一学期总结/" class="title">UWCCSC第一学期总结</a></p>
-                            <p class="item-date"><time datetime="2016-12-02T12:37:35.000Z" itemprop="datePublished">2016-12-02</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/2016/11/20/第二届“紫藤杯”辩论赛参与有感/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/Pursuitia/">Pursuitia</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Pursuitia/Chinese-debate/">Chinese debate</a></p>
-                            <p class="item-title"><a href="/2016/11/20/第二届“紫藤杯”辩论赛参与有感/" class="title">第二届“紫藤杯”辩论赛参与有感</a></p>
-                            <p class="item-date"><time datetime="2016-11-20T08:14:53.000Z" itemprop="datePublished">2016-11-20</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/2016/11/15/Library Crew Reflection/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/Academia/">Academia</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Academia/UWC/">UWC</a></p>
-                            <p class="item-title"><a href="/2016/11/15/Library Crew Reflection/" class="title">Library Crew Reflection</a></p>
-                            <p class="item-date"><time datetime="2016-11-15T15:42:24.000Z" itemprop="datePublished">2016-11-15</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/2016/11/12/Project Week Reflection/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/Academia/">Academia</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Academia/UWC/">UWC</a></p>
-                            <p class="item-title"><a href="/2016/11/12/Project Week Reflection/" class="title">Project Week Reflection</a></p>
-                            <p class="item-date"><time datetime="2016-11-12T08:08:01.000Z" itemprop="datePublished">2016-11-12</time></p>
-                        </div>
-                    </li>
-                
-            </ul>
-        </div>
-    </div>
-
-    
-        
-    <div class="widget-wrap">
-        <h3 class="widget-title">categories</h3>
-        <div class="widget">
-            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Academia/">Academia</a><span class="category-list-count">10</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Academia/UWC/">UWC</a><span class="category-list-count">9</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Academia/University-application/">University application</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Pursuitia/">Pursuitia</a><span class="category-list-count">4</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Pursuitia/Badminton/">Badminton</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Pursuitia/Chinese-debate/">Chinese debate</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Pursuitia/Game/">Game</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Pursuitia/Game/Game-Design/">Game Design</a><span class="category-list-count">1</span></li></ul></li></ul></li></ul>
-        </div>
-    </div>
-
-    
-        
-    <div class="widget-wrap">
-        <h3 class="widget-title">archives</h3>
-        <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a><span class="archive-list-count">13</span></li></ul>
-        </div>
-    </div>
-
-    
-        
-    <div class="widget-wrap">
-        <h3 class="widget-title">tags</h3>
-        <div class="widget">
-            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Badminton/">Badminton</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Chinese-debate/">Chinese debate</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Design/">Design</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/English/">English</a><span class="tag-list-count">8</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/FOA/">FOA</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Game/">Game</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/IBDP/">IBDP</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Library-crew/">Library crew</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Major/">Major</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Presentation/">Presentation</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Project-week/">Project week</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Reflection/">Reflection</a><span class="tag-list-count">10</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Stanford/">Stanford</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/University/">University</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/中文/">中文</a><span class="tag-list-count">7</span></li></ul>
-        </div>
-    </div>
-
-    
-        
-    <div class="widget-wrap">
-        <h3 class="widget-title">tag cloud</h3>
-        <div class="widget tagcloud">
-            <a href="/tags/Badminton/" style="font-size: 10px;">Badminton</a> <a href="/tags/Chinese-debate/" style="font-size: 12px;">Chinese debate</a> <a href="/tags/Design/" style="font-size: 10px;">Design</a> <a href="/tags/English/" style="font-size: 18px;">English</a> <a href="/tags/FOA/" style="font-size: 10px;">FOA</a> <a href="/tags/Game/" style="font-size: 10px;">Game</a> <a href="/tags/IBDP/" style="font-size: 10px;">IBDP</a> <a href="/tags/Library-crew/" style="font-size: 10px;">Library crew</a> <a href="/tags/Major/" style="font-size: 10px;">Major</a> <a href="/tags/Presentation/" style="font-size: 12px;">Presentation</a> <a href="/tags/Project-week/" style="font-size: 14px;">Project week</a> <a href="/tags/Reflection/" style="font-size: 20px;">Reflection</a> <a href="/tags/Stanford/" style="font-size: 10px;">Stanford</a> <a href="/tags/University/" style="font-size: 10px;">University</a> <a href="/tags/中文/" style="font-size: 16px;">中文</a>
-        </div>
-    </div>
-
-    
-        
-    <div class="widget-wrap widget-list">
-        <h3 class="widget-title">links</h3>
-        <div class="widget">
-            <ul>
-                
-                    <li>
-                        <a href="http://hexo.io">Hexo</a>
-                    </li>
-                
-            </ul>
-        </div>
-    </div>
-
-
-    
-    <div id="toTop" class="fa fa-angle-up"></div>
-</aside>
-            
-        </div>
-        <footer id="footer">
-    <div class="outer">
-        <div id="footer-info" class="inner">
-            &copy; 2016 Sylphrena Nye<br>
-            Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>
-        </div>
-    </div>
+  <div class="container">
+      <div class="row">
+	      <p> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/iTimeTraveler/hexo-theme-hiker" target="_blank">Hexo-theme-hiker</a> </p>
+	      <p id="copyRightEn">Copyright &copy; 2016 - 2016 Sylphrena All Rights Reserved.</p>
+	      <p id="copyRightCn">Sylphrena Nye hold copyright</p>
+	</div>
+  </div>
 </footer>
-        
+
+
+<!-- min height -->
+
+<script>
+    var wrapdiv = document.getElementById("wrap");
+    var contentdiv = document.getElementById("content");
+    var allheader = document.getElementById("allheader");
+
+    wrapdiv.style.minHeight = document.body.offsetHeight + "px";
+    if (allheader != null) {
+      contentdiv.style.minHeight = document.body.offsetHeight - allheader.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    } else {
+      contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    }
+</script>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/categories" class="mobile-nav-link">Categories</a>
+  
+    <a href="/tags" class="mobile-nav-link">Tags</a>
+  
+    <a href="/about" class="mobile-nav-link">About</a>
+  
+</nav> -->
     
-    <script>
-    var disqus_config = function () {
-        
-        this.page.identifier = 'undefined';
-    };
-    (function() { 
-        var d = document, s = d.createElement('script');  
-        s.src = '//' + 'hexo-theme-icarus' + '.disqus.com/count.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
+<div style="display: none;">
+  <script src="https://s11.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
+</div>
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
 
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
 
-    
-        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
-        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
-        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
-        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
-        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
-        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
-        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
-        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
-        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
-    
-    
-        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
-    
+
+<script src="/js/script.js"></script>
+<script src="/js/bootstrap.js"></script>
+
+
+  <script src="/js/home.js"></script>
 
 
 
-<!-- Custom Scripts -->
-<script src="/js/main.js"></script>
 
+
+
+
+
+  </div>
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="myModalLabel">设置</h2>
+      </div>
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+
+
+      <div class="modal-body">
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="javascript:setFontSize();" aria-expanded="true" aria-controls="collapseOne">
+              正文字号大小
+            </a>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            您已调整页面字体大小
+          </div>
+        </div>
+      
+
+
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" onclick="javascript:setBackground();" aria-expanded="true" aria-controls="collapseTwo">
+              夜间护眼模式
+            </a>
+        </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+            夜间模式已经开启，再次单击按钮即可关闭 
+          </div>
+        </div>
+
+        <div>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关 于&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </div>
+         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            Sylphrena
+          </div>
+          <div class="panel-body">
+            Copyright © 2016 Sylphrena Nye All Rights Reserved.
+          </div>
+        </div>
+      </div>
+
+
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <div class="modal-footer">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      </div>
     </div>
+  </div>
+</div>
+  <a id="rocket" href="#top" class=""></a>
+  <script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
+  
+
+	<div style="display: none;">
+    <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
+  </div>
+
+
 </body>
 </html>
